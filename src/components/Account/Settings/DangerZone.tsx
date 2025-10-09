@@ -3,7 +3,7 @@
 import { useState, useTransition } from "react";
 import toast from "react-hot-toast";
 
-export function DangerZone({ userId }: { userId: string }) {
+export function DangerZone({ userId }: { userId: string | undefined }) {
     const [showConfirm, setShowConfirm] = useState(false);
     const [isPending, startTransition] = useTransition();
 

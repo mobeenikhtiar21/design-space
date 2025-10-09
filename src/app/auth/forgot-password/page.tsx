@@ -3,7 +3,7 @@
 import { useState, useCallback } from "react";
 import Link from "next/link";
 import { ArrowRight, Mail, AlertCircle, CheckCircle, ArrowLeft, Loader2 } from "lucide-react";
-import { supabase } from "@/lib/Supabase";
+import { supabase } from "@/lib/supabase/client";
 import toast from "react-hot-toast";
 import { ResendConfirmation } from "@/components/Auth/ResendButton";
 

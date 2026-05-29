@@ -13,8 +13,10 @@
     "@types/country-telephone-data": "^0.6.3",
     "clsx": "^2.1.1",
     "country-telephone-data": "^0.6.3",
+    "dotenv": "^8.2.0",
     "lucide-react": "^0.545.0",
     "next": "15.5.4",
+    "node-fetch": "^3.3.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-hot-toast": "^2.6.0"
